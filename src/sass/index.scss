@@ -1,5 +1,9 @@
-@import './common';
-@import './fonts';
-@import './example';
+//UTILS
+@import './utils/variables';
 
+//BASE
+@import './base/common';
+@import './base/fonts';
+
+@import './example';
 @import './start';
