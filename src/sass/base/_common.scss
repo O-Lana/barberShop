@@ -1,15 +1,10 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-// :root {
-//     // --main-font-regular: 'Open Sans', sans-serif;
-//         --main-font-regular: 'Coming Soon', cursive;
-// }
 
 body {
     font-family: var(--main-font);
-    // font-weight: var(--main-font-weight);
-    // font-size: var(--main-text-size);
-    // color: var(--main-color-dark);
+    font-weight: var(--main-font-weight);
+    color: var(--main-color);
 }
 
 h1,
