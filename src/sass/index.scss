@@ -7,6 +7,12 @@
 @import './base/fonts';
 @import './base/container';
 
+//COMPONENTS
+@import './components/suptitle';
+@import './components/title';
+@import './components/description';
+
 //LAYOUT
 @import './layout/header';
 @import './layout/hero';
+@import './layout/about';

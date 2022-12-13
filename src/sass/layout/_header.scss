@@ -1,14 +1,22 @@
 @media screen and (min-width: 320px) {
   .header {
-    position: relative;
+    padding: 40px 15px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
   }
 }
 
-.header-container {
-  position: absolute;
-  padding: 40px 16px 0px;
+.header__mobile {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+
+.header__logo {
+  display: inline-block;
 }
 
 .logo__icon {
@@ -27,8 +35,3 @@
   height: 40px;
   fill: var(--secondary-color);
 }
-
-// .navigation {
-// }
-
-//430px

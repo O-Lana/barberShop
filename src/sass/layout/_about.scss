@@ -1,0 +1,17 @@
+.about {
+  padding: 84px 15px;
+}
+
+.about__title {
+  padding-right: 50px;
+}
+
+.about__description {
+  margin-bottom: 20px;
+}
+
+.about__text {
+  margin-bottom: 40px;
+  padding-right: 38px;
+  @include font-style(14px, 26px);
+}

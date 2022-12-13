@@ -1,0 +1,13 @@
+.title {
+  margin-bottom: 20px;
+  font-family: var(--secondary-font);
+  @include font-style(28px, 33px);
+}
+
+.title-light-theme {
+  color: #303030;
+}
+
+.title-dark-theme {
+  color: var(--secondary-color);
+}
