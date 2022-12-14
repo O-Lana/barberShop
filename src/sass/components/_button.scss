@@ -1,0 +1,22 @@
+.btn {
+  padding: 12px 20px;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans SemiBold';
+  @include font-style(12px, 16px);
+  letter-spacing: 0.09em;
+  color: #303030;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+  }
+}
+
+.btn-dark-theme {
+  color: var(--secondary-color);
+}

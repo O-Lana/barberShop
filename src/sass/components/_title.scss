@@ -2,6 +2,7 @@
   margin-bottom: 20px;
   font-family: var(--secondary-font);
   @include font-style(28px, 33px);
+  letter-spacing: 0.05em;
 }
 
 .title-light-theme {

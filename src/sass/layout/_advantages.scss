@@ -1,0 +1,41 @@
+.advantages {
+  padding: 84px 15px;
+}
+
+.advantages__title {
+  @include font-style(42px, 49px);
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.advantages__description {
+  @include font-style(18px, 30px);
+  letter-spacing: 0.02em;
+  margin-bottom: 44px;
+}
+
+.advantages-list__item {
+  //   position: absolute;
+  padding: 20px 35px;
+  width: 193px;
+  height: 133px;
+  left: 32px;
+  top: 2374px;
+
+  background-color: #f7f7f7;
+}
+
+.advantages-list__count {
+  font-family: 'Open Sans Bold';
+  @include font-style(42px, 57px);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.advantages-list__desc {
+  font-family: 'Open Sans SemiBold';
+  @include font-style(11px, 15px);
+  text-align: center;
+  color: #303030;
+}

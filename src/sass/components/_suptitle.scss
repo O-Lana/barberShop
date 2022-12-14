@@ -4,6 +4,7 @@
   margin-bottom: 20px;
   font-family: 'Open Sans SemiBold';
   @include font-style(11px, 15px);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 
   &::before {
