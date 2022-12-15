@@ -1,0 +1,8 @@
+.masters {
+  padding: 84px 15px;
+}
+
+.masters__title {
+  @include font-style(42px, 49px);
+  margin-bottom: 44px;
+}
