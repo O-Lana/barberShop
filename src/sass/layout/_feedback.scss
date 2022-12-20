@@ -1,0 +1,43 @@
+.feedback {
+  padding: 84px 15px;
+  background-color: #191c26;
+}
+
+.feedback__title {
+  @include font-style(42px, 49px);
+  text-align: center;
+  margin-bottom: 44px;
+  color: var(--secondary-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input,
+.form-input__comment {
+  font-family: 'Open Sans SemiBold';
+  @include font-style(11px, 15px);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  //   color: rgba(157, 164, 189, 0.4);
+  color: var(--secondary-color);
+  background-color: transparent;
+  margin-bottom: 44px;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+
+  &:focus-within {
+    border-bottom: 1px solid var(--secondary-color);
+
+    &::placeholder {
+      color: var(--secondary-color);
+    }
+  }
+}
+
+.form-input__comment {
+  height: 76px;
+  resize: none;
+}
