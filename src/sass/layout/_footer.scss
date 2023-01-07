@@ -1,0 +1,27 @@
+.footer {
+  padding: 84px 15px;
+  background-image: url('../images/contact/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #191c26;
+}
+
+.footer__title {
+  @include font-style(42px, 49px);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer__contact-link {
+  display: flex;
+  // text-align: center;
+  align-items: center;
+  color: #9da4bd;
+  margin-bottom: 20px;
+}
+
+.footer__contact-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
